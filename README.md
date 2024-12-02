@@ -5,17 +5,17 @@
 
 ## Rodar o projeto
 
-Renomear o arquivo ".env.exemple" para ".env" <br>
+1- Renomear o arquivo ".env.exemple" para ".env" <br>
 
-Instalar as dependências do PHP
+2- Instalar as dependências do PHP
 ```
 composer install
 ```
-Gerar a APP_KEY
+3- Gerar a APP_KEY
 ```
 php artisan key:generate
 ```
-Iniciar o servidor
+4- Iniciar o servidor
 ```
 php artisan serve
 ```
