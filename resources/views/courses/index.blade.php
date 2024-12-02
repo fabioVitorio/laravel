@@ -3,13 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Laravel</title>
+        <title>Index Courses</title>
     </head>
 
     <body>
-        <h1>Welcome</h1>
+        <h1>index Courses</h1>
 
-        <p>{{ \Carbon\Carbon::now()->format('d/m/y') }}</p>
-
+        <a href="{{ route('show-course') }}">Show Course</a>
     </body>
 </html>
